@@ -1,0 +1,67 @@
+/* src/App.css */
+
+/* Container principal da aplicação */
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos principais */
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #555;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Botões */
+button {
+  background-color: #007bff;
+  padding: 10px 15px;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px auto;
+  display: block;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para a área de conteúdo, se necessário */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo para a página inicial */
+.home-page {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.home-page p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.home-page button {
+  font-size: 1.1rem;
+  padding: 15px 30px;
+}

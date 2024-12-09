@@ -1,0 +1,6 @@
+Flask
+Flask-sqlalchemy
+Flask-migrate
+Flask-cors
+pymysql
+flask-restful==0.3.10
